@@ -1,0 +1,51 @@
+farmer_id,first_name,last_name,full_name,gender,district,village
+MW-SF-00001,Chisomo,Banda,Chisomo Banda,Female,Lilongwe,Mitundu
+MW-SF-00002,Kondwani,Phiri,Kondwani Phiri,Male,Blantyre,Ndirande
+MW-SF-00003,Tadala,Mwale,Tadala Mwale,Female,Mzimba,Euthini
+MW-SF-00004,Limbani,Chirwa,Limbani Chirwa,Male,Kasungu,Chulu
+MW-SF-00005,Tionge,Tembo,Tionge Tembo,Female,Dedza,Lobi
+MW-SF-00006,Mphatso,Nkosi,Mphatso Nkosi,Male,Ntchisi,Mponela
+MW-SF-00007,Dalitso,Kamanga,Dalitso Kamanga,Male,Salima,Chipoka
+MW-SF-00008,Chimwemwe,Msiska,Chimwemwe Msiska,Female,Nkhata Bay,Chintheche
+MW-SF-00009,Yankho,Gondwe,Yankho Gondwe,Male,Rumphi,Bolero
+MW-SF-00010,Pemphero,Mbewe,Pemphero Mbewe,Female,Karonga,Chilumba
+MW-SF-00011,Takondwa,Lungu,Takondwa Lungu,Male,Lilongwe,Nathenje
+MW-SF-00012,Alinafe,Nyirenda,Alinafe Nyirenda,Female,Mzuzu,Ekwendeni
+MW-SF-00013,Chifundo,Kamwendo,Chifundo Kamwendo,Female,Dedza,Mtakataka
+MW-SF-00014,Lusungu,Mkandawire,Lusungu Mkandawire,Male,Nkhotakota,Dwangwa
+MW-SF-00015,Mpho,Mwanza,Mpho Mwanza,Male,Thyolo,Makwasa
+MW-SF-00016,Thandiwe,Phiri,Thandiwe Phiri,Female,Chiradzulu,Chiradzulu Boma
+MW-SF-00017,Blessings,Mwenifumbo,Blessings Mwenifumbo,Male,Mzimba,Eswazini
+MW-SF-00018,Fatsani,Jere,Fatsani Jere,Female,Ntcheu,Lizulu
+MW-SF-00019,Sangwani,Nyambe,Sangwani Nyambe,Male,Phalombe,Chitakale
+MW-SF-00020,Kondwani,Mchulu,Kondwani Mchulu,Male,Mulanje,Chitakale
+MW-SF-00021,Thokozile,Kaferapanjira,Thokozile Kaferapanjira,Female,Blantyre,Lirangwe
+MW-SF-00022,Lovemore,Zimba,Lovemore Zimba,Male,Chikwawa,Ngabu
+MW-SF-00023,Mercy,Kambalame,Mercy Kambalame,Female,Nsanje,Bangula
+MW-SF-00024,Bright,Mkwapatira,Bright Mkwapatira,Male,Balaka,Balaka Boma
+MW-SF-00025,Doris,Sakala,Doris Sakala,Female,Machinga,Liwonde
+MW-SF-00026,Innocent,Magombo,Innocent Magombo,Male,Zomba,Songani
+MW-SF-00027,Wezzie,Chikafa,Wezzie Chikafa,Female,Mangochi,Monkey Bay
+MW-SF-00028,Austin,Nkhonjera,Austin Nkhonjera,Male,Karonga,Kaporo
+MW-SF-00029,Lonjezo,Phande,Lonjezo Phande,Male,Lilongwe,Chezi
+MW-SF-00030,Taonga,Mwase,Taonga Mwase,Female,Kasungu,Lukwa
+MW-SF-00031,Fyiness,Nkhoma,Fyiness Nkhoma,Female,Ntchisi,Chamama
+MW-SF-00032,Enock,Kalua,Enock Kalua,Male,Dowa,Mponela
+MW-SF-00033,Josephine,Soko,Josephine Soko,Female,Salima,Senga Bay
+MW-SF-00034,Raphael,Chaponda,Raphael Chaponda,Male,Mzimba,Chikangawa
+MW-SF-00035,Felistas,Kumwenda,Felistas Kumwenda,Female,Rumphi,Katowo
+MW-SF-00036,Gerald,Mphande,Gerald Mphande,Male,Nkhata Bay,Kande
+MW-SF-00037,Precious,Chilongozi,Precious Chilongozi,Female,Dedza,Ntakataka
+MW-SF-00038,Moses,Kayuni,Moses Kayuni,Male,Thyolo,Luchenza
+MW-SF-00039,Agnes,Mdala,Agnes Mdala,Female,Mulanje,Mulanje Boma
+MW-SF-00040,Francis,Nampota,Francis Nampota,Male,Chiradzulu,Namadzi
+MW-SF-00041,Vitumbiko,Mwalija,Vitumbiko Mwalija,Male,Chikwawa,Chapananga
+MW-SF-00042,Stella,Nkholoma,Stella Nkholoma,Female,Nsanje,Ndamera
+MW-SF-00043,Christopher,Mdumuka,Christopher Mdumuka,Male,Balaka,Ntaja
+MW-SF-00044,Veronica,Chagunda,Veronica Chagunda,Female,Machinga,Mangochi
+MW-SF-00045,Patrick,Mauwa,Patrick Mauwa,Male,Zomba,Domasi
+MW-SF-00046,Edna,Tembo,Edna Tembo,Female,Mangochi,Namwera
+MW-SF-00047,Richard,Nkhata,Richard Nkhata,Male,Lilongwe,Bunda
+MW-SF-00048,Eunice,Luhanga,Eunice Luhanga,Female,Mzuzu,Mzuzu Boma
+MW-SF-00049,Harrison,Chiwaya,Harrison Chiwaya,Male,Nkhotakota,Nkhotakota Boma
+MW-SF-00050,Bertha,Kachingwe,Bertha Kachingwe,Female,Phalombe,Phalombe Boma

@@ -1,0 +1,630 @@
+[2026-04-12 17:34:17] Payment Init Flow:
+Order ID: 45
+Phone: 0999130104
+Amount: 50.00
+[2026-04-12 17:34:25] Mobile Payment Initiation:
+URL: https://new-api.ctechpay.com/api/v1/airtel/payment
+Payload: {"token":"a1ZXVnVXOEhhNGJIZW1IM3BZZWRKdGkwbk5UNmNhck1lQ0RQeVNuR3l0MjRobGRVcWh6ZGZZZ1ozdXd2S2ZrRA","amount":50,"phone":"0999130104","category_flag":"NAOS"}
+HTTP Code: 200
+Response: {"status":"success","message":"Payment initiated successfully.","data":{"data":{"transaction":{"id":"ID2604121734209b35CTPAY","status":"Success."}},"status":{"response_code":"DP00800001006","code":"200","success":true,"result_code":"ESB000010","message":"SUCCESS"}}}
+-------------------
+[2026-04-12 17:35:06] Payment Status Check:
+URL: https://new-api.ctechpay.com/api/v1/airtel/status
+HTTP Code: 200
+Response: {"response_code":"DP00800001001","result_code":"ESB000010","transaction_status":"TS","airtel_money_id":"BP260412.1734.544541","message":"Transaction Successful"}
+-------------------
+[2026-04-17 10:22:54] Payment Init Flow:
+Order ID: 16
+Phone: 0880779557
+Amount: 5000.00
+[2026-04-17 10:22:59] Mobile Payment Initiation:
+URL: https://new-api.ctechpay.com/api/v1/airtel/payment
+Payload: {"token":"a1ZXVnVXOEhhNGJIZW1IM3BZZWRKdGkwbk5UNmNhck1lQ0RQeVNuR3l0MjRobGRVcWh6ZGZZZ1ozdXd2S2ZrRA","amount":5000,"phone":"0880779557","category_flag":"NAOS"}
+HTTP Code: 422
+Response: {"status":"error","message":"The provided phone number is not a valid Airtel Malawi number."}
+-------------------
+[2026-04-17 10:22:59] Payment Init Flow:
+Order ID: 16
+Phone: 0880779557
+Amount: 5000.00
+[2026-04-17 10:23:03] Mobile Payment Initiation:
+URL: https://new-api.ctechpay.com/api/v1/airtel/payment
+Payload: {"token":"a1ZXVnVXOEhhNGJIZW1IM3BZZWRKdGkwbk5UNmNhck1lQ0RQeVNuR3l0MjRobGRVcWh6ZGZZZ1ozdXd2S2ZrRA","amount":5000,"phone":"0880779557","category_flag":"NAOS"}
+HTTP Code: 422
+Response: {"status":"error","message":"The provided phone number is not a valid Airtel Malawi number."}
+-------------------
+[2026-04-17 10:23:04] Payment Init Flow:
+Order ID: 16
+Phone: 0880779557
+Amount: 5000.00
+[2026-04-17 10:23:08] Mobile Payment Initiation:
+URL: https://new-api.ctechpay.com/api/v1/airtel/payment
+Payload: {"token":"a1ZXVnVXOEhhNGJIZW1IM3BZZWRKdGkwbk5UNmNhck1lQ0RQeVNuR3l0MjRobGRVcWh6ZGZZZ1ozdXd2S2ZrRA","amount":5000,"phone":"0880779557","category_flag":"NAOS"}
+HTTP Code: 422
+Response: {"status":"error","message":"The provided phone number is not a valid Airtel Malawi number."}
+-------------------
+[2026-05-04 08:52:51] Payment Init Flow:
+Order ID: 48
+Phone: 0997079797
+Amount: 50.00
+[2026-05-04 08:52:54] Mobile Payment Initiation:
+URL: https://new-api.ctechpay.com/api/v1/airtel/payment
+Payload: {"token":"a1ZXVnVXOEhhNGJIZW1IM3BZZWRKdGkwbk5UNmNhck1lQ0RQeVNuR3l0MjRobGRVcWh6ZGZZZ1ozdXd2S2ZrRA","amount":50,"phone":"0997079797","category_flag":"NAOS"}
+HTTP Code: 200
+Response: {"status":"success","message":"Payment initiated successfully.","data":{"data":{"transaction":{"id":"ID26050408525352dfCTPAY","status":"Success."}},"status":{"response_code":"DP00800001006","code":"200","success":true,"result_code":"ESB000010","message":"SUCCESS"}},"customer_reference":null,"customer_message":null}
+-------------------
+[2026-05-04 08:53:23] Payment Status Check:
+URL: https://new-api.ctechpay.com/api/v1/airtel/status
+HTTP Code: 200
+Response: {"response_code":"DP00800001001","result_code":"ESB000010","transaction_status":"TS","airtel_money_id":"BP260504.0852.900393","message":"Transaction Successful"}
+-------------------
+[2026-05-09 14:19:26] Payment Init Flow:
+Order ID: 16
+Phone: 0880779557
+Amount: 5000.00
+[2026-05-09 14:19:28] Mobile Payment Initiation:
+URL: https://new-api.ctechpay.com/api/v1/airtel/payment
+Payload: {"token":"a1ZXVnVXOEhhNGJIZW1IM3BZZWRKdGkwbk5UNmNhck1lQ0RQeVNuR3l0MjRobGRVcWh6ZGZZZ1ozdXd2S2ZrRA","amount":5000,"phone":"0880779557","category_flag":"NAOS"}
+HTTP Code: 422
+Response: {"status":"error","message":"The provided phone number is not a valid Airtel Malawi number."}
+-------------------
+[2026-05-09 15:25:14] Payment Init Flow:
+Order ID: 52
+Phone: 0880779557
+Amount: 50.00
+[2026-05-09 15:25:15] Mobile Payment Initiation:
+URL: https://new-api.ctechpay.com/api/v1/airtel/payment
+Payload: {"token":"a1ZXVnVXOEhhNGJIZW1IM3BZZWRKdGkwbk5UNmNhck1lQ0RQeVNuR3l0MjRobGRVcWh6ZGZZZ1ozdXd2S2ZrRA","amount":50,"phone":"0880779557","category_flag":"NAOS"}
+HTTP Code: 422
+Response: {"status":"error","message":"The provided phone number is not a valid Airtel Malawi number."}
+-------------------
+[2026-05-09 15:27:39] Payment Init Flow:
+Order ID: 52
+Phone: 0997079797
+Amount: 50.00
+[2026-05-09 15:27:41] Mobile Payment Initiation:
+URL: https://new-api.ctechpay.com/api/v1/airtel/payment
+Payload: {"token":"a1ZXVnVXOEhhNGJIZW1IM3BZZWRKdGkwbk5UNmNhck1lQ0RQeVNuR3l0MjRobGRVcWh6ZGZZZ1ozdXd2S2ZrRA","amount":50,"phone":"0997079797","category_flag":"NAOS"}
+HTTP Code: 200
+Response: {"status":"success","message":"Payment initiated successfully.","data":{"data":{"transaction":{"id":"ID2605091527403b52CTPAY","status":"Success."}},"status":{"response_code":"DP00800001006","code":"200","success":true,"result_code":"ESB000010","message":"SUCCESS"}},"customer_reference":null,"customer_message":null}
+-------------------
+[2026-05-09 15:28:11] Payment Status Check:
+URL: https://new-api.ctechpay.com/api/v1/airtel/status
+HTTP Code: 200
+Response: {"response_code":"DP00800001001","result_code":"ESB000010","transaction_status":"TS","airtel_money_id":"BP260509.1527.731836","message":"Transaction Successful"}
+-------------------
+[2026-05-09 16:17:58] Payment Init Flow:
+Order ID: 51
+Phone: 0997079797
+Amount: 50.00
+[2026-05-09 16:18:02] Mobile Payment Initiation:
+URL: https://new-api.ctechpay.com/api/v1/airtel/payment
+Payload: {"token":"a1ZXVnVXOEhhNGJIZW1IM3BZZWRKdGkwbk5UNmNhck1lQ0RQeVNuR3l0MjRobGRVcWh6ZGZZZ1ozdXd2S2ZrRA","amount":50,"phone":"0997079797","category_flag":"NAOS"}
+HTTP Code: 200
+Response: {"status":"success","message":"Payment initiated successfully.","data":{"data":{"transaction":{"id":"ID260509161759a02dCTPAY","status":"Success."}},"status":{"response_code":"DP00800001006","code":"200","success":true,"result_code":"ESB000010","message":"SUCCESS"}},"customer_reference":null,"customer_message":null}
+-------------------
+[2026-05-09 16:18:31] Payment Status Check:
+URL: https://new-api.ctechpay.com/api/v1/airtel/status
+HTTP Code: 200
+Response: {"response_code":"DP00800001001","result_code":"ESB000010","transaction_status":"TS","airtel_money_id":"BP260509.1618.454693","message":"Transaction Successful"}
+-------------------
+[2026-05-10 10:55:30] Payment Init Flow:
+Order ID: 54
+Phone: 0997079797
+Amount: 50.00
+[2026-05-10 10:55:33] Mobile Payment Initiation:
+URL: https://new-api.ctechpay.com/api/v1/airtel/payment
+Payload: {"token":"a1ZXVnVXOEhhNGJIZW1IM3BZZWRKdGkwbk5UNmNhck1lQ0RQeVNuR3l0MjRobGRVcWh6ZGZZZ1ozdXd2S2ZrRA","amount":50,"phone":"0997079797","category_flag":"NAOS"}
+HTTP Code: 200
+Response: {"status":"success","message":"Payment initiated successfully.","data":{"data":{"transaction":{"id":"ID2605101055326efaCTPAY","status":"Success."}},"status":{"response_code":"DP00800001006","code":"200","success":true,"result_code":"ESB000010","message":"SUCCESS"}},"customer_reference":null,"customer_message":null}
+-------------------
+[2026-05-10 10:56:03] Payment Status Check:
+URL: https://new-api.ctechpay.com/api/v1/airtel/status
+HTTP Code: 200
+Response: {"response_code":"DP00800001001","result_code":"ESB000010","transaction_status":"TS","airtel_money_id":"BP260510.1055.485824","message":"Transaction Successful"}
+-------------------
+[2026-05-10 11:49:47] Payment Init Flow:
+Order ID: 49
+Phone: 0997079797
+Amount: 56.00
+[2026-05-10 11:49:50] Mobile Payment Initiation:
+URL: https://new-api.ctechpay.com/api/v1/airtel/payment
+Payload: {"token":"a1ZXVnVXOEhhNGJIZW1IM3BZZWRKdGkwbk5UNmNhck1lQ0RQeVNuR3l0MjRobGRVcWh6ZGZZZ1ozdXd2S2ZrRA","amount":56,"phone":"0997079797","category_flag":"NAOS"}
+HTTP Code: 200
+Response: {"status":"success","message":"Payment initiated successfully.","data":{"data":{"transaction":{"id":"ID2605101149490cd5CTPAY","status":"Success."}},"status":{"response_code":"DP00800001006","code":"200","success":true,"result_code":"ESB000010","message":"SUCCESS"}},"customer_reference":null,"customer_message":null}
+-------------------
+[2026-05-10 11:50:20] Payment Status Check:
+URL: https://new-api.ctechpay.com/api/v1/airtel/status
+HTTP Code: 200
+Response: {"response_code":"DP00800001002","result_code":"ESB000010","transaction_status":"TF","airtel_money_id":"BP260510.1149.996135","message":"Wrong PIN entered. Forgot your PIN? To RESET it, dial *211#, select my Account, then MY PIN and Reset PIN\/Forgot PIN"}
+-------------------
+[2026-05-10 11:57:17] Payment Init Flow:
+Order ID: 49
+Phone: 0997079797
+Amount: 56.00
+[2026-05-10 11:57:20] Mobile Payment Initiation:
+URL: https://new-api.ctechpay.com/api/v1/airtel/payment
+Payload: {"token":"a1ZXVnVXOEhhNGJIZW1IM3BZZWRKdGkwbk5UNmNhck1lQ0RQeVNuR3l0MjRobGRVcWh6ZGZZZ1ozdXd2S2ZrRA","amount":56,"phone":"0997079797","category_flag":"NAOS"}
+HTTP Code: 200
+Response: {"status":"success","message":"Payment initiated successfully.","data":{"data":{"transaction":{"id":"ID2605101157194104CTPAY","status":"Success."}},"status":{"response_code":"DP00800001006","code":"200","success":true,"result_code":"ESB000010","message":"SUCCESS"}},"customer_reference":null,"customer_message":null}
+-------------------
+[2026-05-10 11:57:49] Payment Status Check:
+URL: https://new-api.ctechpay.com/api/v1/airtel/status
+HTTP Code: 200
+Response: {"response_code":"DP00800001006","result_code":"ESB000010","transaction_status":"TIP","airtel_money_id":"BP260510.1157.186052","message":"Transaction in Progress"}
+-------------------
+[2026-05-10 12:02:02] Payment Init Flow:
+Order ID: 49
+Phone: 0997079797
+Amount: 56.00
+[2026-05-10 12:02:05] Mobile Payment Initiation:
+URL: https://new-api.ctechpay.com/api/v1/airtel/payment
+Payload: {"token":"a1ZXVnVXOEhhNGJIZW1IM3BZZWRKdGkwbk5UNmNhck1lQ0RQeVNuR3l0MjRobGRVcWh6ZGZZZ1ozdXd2S2ZrRA","amount":56,"phone":"0997079797","category_flag":"NAOS"}
+HTTP Code: 200
+Response: {"status":"success","message":"Payment initiated successfully.","data":{"data":{"transaction":{"id":"ID2605101202040d49CTPAY","status":"Success."}},"status":{"response_code":"DP00800001006","code":"200","success":true,"result_code":"ESB000010","message":"SUCCESS"}},"customer_reference":null,"customer_message":null}
+-------------------
+[2026-05-10 12:02:34] Payment Status Check:
+URL: https://new-api.ctechpay.com/api/v1/airtel/status
+HTTP Code: 200
+Response: {"response_code":"DP00800001006","result_code":"ESB000010","transaction_status":"TIP","airtel_money_id":"BP260510.1202.261051","message":"Transaction in Progress"}
+-------------------
+[2026-05-10 12:06:10] Payment Init Flow:
+Order ID: 49
+Phone: 0997079797
+Amount: 56.00
+[2026-05-10 12:06:13] Mobile Payment Initiation:
+URL: https://new-api.ctechpay.com/api/v1/airtel/payment
+Payload: {"token":"a1ZXVnVXOEhhNGJIZW1IM3BZZWRKdGkwbk5UNmNhck1lQ0RQeVNuR3l0MjRobGRVcWh6ZGZZZ1ozdXd2S2ZrRA","amount":56,"phone":"0997079797","category_flag":"NAOS"}
+HTTP Code: 200
+Response: {"status":"success","message":"Payment initiated successfully.","data":{"data":{"transaction":{"id":"ID260510120612360eCTPAY","status":"Success."}},"status":{"response_code":"DP00800001006","code":"200","success":true,"result_code":"ESB000010","message":"SUCCESS"}},"customer_reference":null,"customer_message":null}
+-------------------
+[2026-05-10 12:06:42] Payment Status Check:
+URL: https://new-api.ctechpay.com/api/v1/airtel/status
+HTTP Code: 200
+Response: {"response_code":"DP00800001006","result_code":"ESB000010","transaction_status":"TIP","airtel_money_id":"BP260510.1206.248783","message":"Transaction in Progress"}
+-------------------
+[2026-05-10 12:09:30] Payment Init Flow:
+Order ID: 49
+Phone: 0997079797
+Amount: 56.00
+[2026-05-10 12:09:33] Mobile Payment Initiation:
+URL: https://new-api.ctechpay.com/api/v1/airtel/payment
+Payload: {"token":"a1ZXVnVXOEhhNGJIZW1IM3BZZWRKdGkwbk5UNmNhck1lQ0RQeVNuR3l0MjRobGRVcWh6ZGZZZ1ozdXd2S2ZrRA","amount":56,"phone":"0997079797","category_flag":"NAOS"}
+HTTP Code: 200
+Response: {"status":"success","message":"Payment initiated successfully.","data":{"data":{"transaction":{"id":"ID260510120932d37bCTPAY","status":"Success."}},"status":{"response_code":"DP00800001006","code":"200","success":true,"result_code":"ESB000010","message":"SUCCESS"}},"customer_reference":null,"customer_message":null}
+-------------------
+[2026-05-10 12:10:03] Payment Status Check:
+URL: https://new-api.ctechpay.com/api/v1/airtel/status
+HTTP Code: 200
+Response: {"response_code":"DP00800001006","result_code":"ESB000010","transaction_status":"TIP","airtel_money_id":"BP260510.1209.299017","message":"Transaction in Progress"}
+-------------------
+[2026-05-10 12:16:57] Payment Init Flow:
+Order ID: 49
+Phone: 0997079797
+Amount: 56.00
+[2026-05-10 12:17:00] Mobile Payment Initiation:
+URL: https://new-api.ctechpay.com/api/v1/airtel/payment
+Payload: {"token":"a1ZXVnVXOEhhNGJIZW1IM3BZZWRKdGkwbk5UNmNhck1lQ0RQeVNuR3l0MjRobGRVcWh6ZGZZZ1ozdXd2S2ZrRA","amount":56,"phone":"0997079797","category_flag":"NAOS"}
+HTTP Code: 200
+Response: {"status":"success","message":"Payment initiated successfully.","data":{"data":{"transaction":{"id":"ID260510121659518dCTPAY","status":"Success."}},"status":{"response_code":"DP00800001006","code":"200","success":true,"result_code":"ESB000010","message":"SUCCESS"}},"customer_reference":null,"customer_message":null}
+-------------------
+[2026-05-10 12:17:30] Payment Status Check:
+URL: https://new-api.ctechpay.com/api/v1/airtel/status
+HTTP Code: 200
+Response: {"response_code":"DP00800001006","result_code":"ESB000010","transaction_status":"TIP","airtel_money_id":"BP260510.1217.386211","message":"Transaction in Progress"}
+-------------------
+[2026-05-10 12:19:04] Payment Init Flow:
+Order ID: 49
+Phone: 0997079797
+Amount: 56.00
+[2026-05-10 12:19:06] Mobile Payment Initiation:
+URL: https://new-api.ctechpay.com/api/v1/airtel/payment
+Payload: {"token":"a1ZXVnVXOEhhNGJIZW1IM3BZZWRKdGkwbk5UNmNhck1lQ0RQeVNuR3l0MjRobGRVcWh6ZGZZZ1ozdXd2S2ZrRA","amount":56,"phone":"0997079797","category_flag":"NAOS"}
+HTTP Code: 200
+Response: {"status":"success","message":"Payment initiated successfully.","data":{"data":{"transaction":{"id":"ID260510121906c542CTPAY","status":"Success."}},"status":{"response_code":"DP00800001006","code":"200","success":true,"result_code":"ESB000010","message":"SUCCESS"}},"customer_reference":null,"customer_message":null}
+-------------------
+[2026-05-10 12:19:36] Payment Status Check:
+URL: https://new-api.ctechpay.com/api/v1/airtel/status
+HTTP Code: 200
+Response: {"response_code":"DP00800001001","result_code":"ESB000010","transaction_status":"TS","airtel_money_id":"BP260510.1219.395926","message":"Transaction Successful"}
+-------------------
+[2026-05-10 12:20:28] Payment Init Flow:
+Order ID: 55
+Phone: 0882827566
+Amount: 50.00
+[2026-05-10 12:20:29] Mobile Payment Initiation:
+URL: https://new-api.ctechpay.com/api/v1/airtel/payment
+Payload: {"token":"a1ZXVnVXOEhhNGJIZW1IM3BZZWRKdGkwbk5UNmNhck1lQ0RQeVNuR3l0MjRobGRVcWh6ZGZZZ1ozdXd2S2ZrRA","amount":50,"phone":"0882827566","category_flag":"NAOS"}
+HTTP Code: 422
+Response: {"status":"error","message":"The provided phone number is not a valid Airtel Malawi number."}
+-------------------
+[2026-05-10 12:44:46] Payment Init Flow:
+Order ID: 56
+Phone: 0997079797
+Amount: 83.00
+[2026-05-10 12:44:49] Mobile Payment Initiation:
+URL: https://new-api.ctechpay.com/api/v1/airtel/payment
+Payload: {"token":"a1ZXVnVXOEhhNGJIZW1IM3BZZWRKdGkwbk5UNmNhck1lQ0RQeVNuR3l0MjRobGRVcWh6ZGZZZ1ozdXd2S2ZrRA","amount":83,"phone":"0997079797","category_flag":"NAOS"}
+HTTP Code: 200
+Response: {"status":"success","message":"Payment initiated successfully.","data":{"data":{"transaction":{"id":"ID2605101244482defCTPAY","status":"Success."}},"status":{"response_code":"DP00800001006","code":"200","success":true,"result_code":"ESB000010","message":"SUCCESS"}},"customer_reference":null,"customer_message":null}
+-------------------
+[2026-05-10 12:45:18] Payment Status Check:
+URL: https://new-api.ctechpay.com/api/v1/airtel/status
+HTTP Code: 200
+Response: {"response_code":"DP00800001001","result_code":"ESB000010","transaction_status":"TS","airtel_money_id":"BP260510.1244.674555","message":"Transaction Successful"}
+-------------------
+[2026-05-11 20:26:54] Payment Init Flow:
+Order ID: 57
+Phone: 0985186399
+Amount: 50.00
+[2026-05-11 20:27:02] Mobile Payment Initiation:
+URL: https://new-api.ctechpay.com/api/v1/airtel/payment
+Payload: {"token":"a1ZXVnVXOEhhNGJIZW1IM3BZZWRKdGkwbk5UNmNhck1lQ0RQeVNuR3l0MjRobGRVcWh6ZGZZZ1ozdXd2S2ZrRA","amount":50,"phone":"0985186399","category_flag":"NAOS"}
+HTTP Code: 200
+Response: {"status":"success","message":"Payment initiated successfully.","data":{"status":{"response_code":"DP00800001008","code":"400","success":false,"result_code":"0000900","message":"Sender is not available in system"}},"customer_reference":null,"customer_message":null}
+-------------------
+[2026-05-11 20:27:05] Payment Init Flow:
+Order ID: 58
+Phone: 0985186399
+Amount: 50.00
+[2026-05-11 20:27:20] Mobile Payment Initiation:
+URL: https://new-api.ctechpay.com/api/v1/airtel/payment
+Payload: {"token":"a1ZXVnVXOEhhNGJIZW1IM3BZZWRKdGkwbk5UNmNhck1lQ0RQeVNuR3l0MjRobGRVcWh6ZGZZZ1ozdXd2S2ZrRA","amount":50,"phone":"0985186399","category_flag":"NAOS"}
+HTTP Code: 200
+Response: {"status":"success","message":"Payment initiated successfully.","data":{"status":{"response_code":"DP00800001008","code":"400","success":false,"result_code":"0000900","message":"Sender is not available in system"}},"customer_reference":null,"customer_message":null}
+-------------------
+[2026-05-11 20:42:55] Payment Init Flow:
+Order ID: 59
+Phone: 0994308469
+Amount: 50.00
+[2026-05-11 20:42:58] Mobile Payment Initiation:
+URL: https://new-api.ctechpay.com/api/v1/airtel/payment
+Payload: {"token":"a1ZXVnVXOEhhNGJIZW1IM3BZZWRKdGkwbk5UNmNhck1lQ0RQeVNuR3l0MjRobGRVcWh6ZGZZZ1ozdXd2S2ZrRA","amount":50,"phone":"0994308469","category_flag":"NAOS"}
+HTTP Code: 200
+Response: {"status":"success","message":"Payment initiated successfully.","data":{"data":{"transaction":{"id":"ID260511204256af6cCTPAY","status":"Success."}},"status":{"response_code":"DP00800001006","code":"200","success":true,"result_code":"ESB000010","message":"SUCCESS"}},"customer_reference":null,"customer_message":null}
+-------------------
+[2026-05-11 20:43:27] Payment Status Check:
+URL: https://new-api.ctechpay.com/api/v1/airtel/status
+HTTP Code: 200
+Response: {"response_code":"DP00800001006","result_code":"ESB000010","transaction_status":"TIP","airtel_money_id":"BP260511.2042.227762","message":"Transaction in Progress"}
+-------------------
+[2026-05-11 20:48:08] Payment Init Flow:
+Order ID: 60
+Phone: 0994308469
+Amount: 50.00
+[2026-05-11 20:48:11] Mobile Payment Initiation:
+URL: https://new-api.ctechpay.com/api/v1/airtel/payment
+Payload: {"token":"a1ZXVnVXOEhhNGJIZW1IM3BZZWRKdGkwbk5UNmNhck1lQ0RQeVNuR3l0MjRobGRVcWh6ZGZZZ1ozdXd2S2ZrRA","amount":50,"phone":"0994308469","category_flag":"NAOS"}
+HTTP Code: 200
+Response: {"status":"success","message":"Payment initiated successfully.","data":{"data":{"transaction":{"id":"ID260511204809e528CTPAY","status":"Success."}},"status":{"response_code":"DP00800001006","code":"200","success":true,"result_code":"ESB000010","message":"SUCCESS"}},"customer_reference":null,"customer_message":null}
+-------------------
+[2026-05-11 20:48:42] Payment Status Check:
+URL: https://new-api.ctechpay.com/api/v1/airtel/status
+HTTP Code: 200
+Response: {"response_code":"DP00800001006","result_code":"ESB000010","transaction_status":"TIP","airtel_money_id":"BP260511.2048.260058","message":"Transaction in Progress"}
+-------------------
+[2026-05-11 21:00:46] Payment Init Flow:
+Order ID: 61
+Phone: 0997079797
+Amount: 50.00
+[2026-05-11 21:00:50] Mobile Payment Initiation:
+URL: https://new-api.ctechpay.com/api/v1/airtel/payment
+Payload: {"token":"a1ZXVnVXOEhhNGJIZW1IM3BZZWRKdGkwbk5UNmNhck1lQ0RQeVNuR3l0MjRobGRVcWh6ZGZZZ1ozdXd2S2ZrRA","amount":50,"phone":"0997079797","category_flag":"NAOS"}
+HTTP Code: 200
+Response: {"status":"success","message":"Payment initiated successfully.","data":{"data":{"transaction":{"id":"ID2605112100485315CTPAY","status":"Success."}},"status":{"response_code":"DP00800001006","code":"200","success":true,"result_code":"ESB000010","message":"SUCCESS"}},"customer_reference":null,"customer_message":null}
+-------------------
+[2026-05-11 21:01:20] Payment Status Check:
+URL: https://new-api.ctechpay.com/api/v1/airtel/status
+HTTP Code: 200
+Response: {"response_code":"DP00800001001","result_code":"ESB000010","transaction_status":"TS","airtel_money_id":"BP260511.2100.330857","message":"Transaction Successful"}
+-------------------
+[2026-05-11 21:14:10] Payment Init Flow:
+Order ID: 64
+Phone: 0997079797
+Amount: 70.00
+[2026-05-11 21:14:13] Mobile Payment Initiation:
+URL: https://new-api.ctechpay.com/api/v1/airtel/payment
+Payload: {"token":"a1ZXVnVXOEhhNGJIZW1IM3BZZWRKdGkwbk5UNmNhck1lQ0RQeVNuR3l0MjRobGRVcWh6ZGZZZ1ozdXd2S2ZrRA","amount":70,"phone":"0997079797","category_flag":"NAOS"}
+HTTP Code: 200
+Response: {"status":"success","message":"Payment initiated successfully.","data":{"data":{"transaction":{"id":"ID260511211411a547CTPAY","status":"Success."}},"status":{"response_code":"DP00800001006","code":"200","success":true,"result_code":"ESB000010","message":"SUCCESS"}},"customer_reference":null,"customer_message":null}
+-------------------
+[2026-05-11 21:14:42] Payment Status Check:
+URL: https://new-api.ctechpay.com/api/v1/airtel/status
+HTTP Code: 200
+Response: {"response_code":"DP00800001001","result_code":"ESB000010","transaction_status":"TS","airtel_money_id":"BP260511.2114.383795","message":"Transaction Successful"}
+-------------------
+[2026-05-11 21:22:18] Payment Init Flow:
+Order ID: 62
+Phone: 0997079797
+Amount: 100.00
+[2026-05-11 21:22:21] Mobile Payment Initiation:
+URL: https://new-api.ctechpay.com/api/v1/airtel/payment
+Payload: {"token":"a1ZXVnVXOEhhNGJIZW1IM3BZZWRKdGkwbk5UNmNhck1lQ0RQeVNuR3l0MjRobGRVcWh6ZGZZZ1ozdXd2S2ZrRA","amount":100,"phone":"0997079797","category_flag":"NAOS"}
+HTTP Code: 200
+Response: {"status":"success","message":"Payment initiated successfully.","data":{"data":{"transaction":{"id":"ID260511212219ecc8CTPAY","status":"Success."}},"status":{"response_code":"DP00800001006","code":"200","success":true,"result_code":"ESB000010","message":"SUCCESS"}},"customer_reference":null,"customer_message":null}
+-------------------
+[2026-05-11 21:22:52] Payment Status Check:
+URL: https://new-api.ctechpay.com/api/v1/airtel/status
+HTTP Code: 200
+Response: {"response_code":"DP00800001006","result_code":"ESB000010","transaction_status":"TIP","airtel_money_id":"BP260511.2122.452056","message":"Transaction in Progress"}
+-------------------
+[2026-05-11 21:23:26] Payment Init Flow:
+Order ID: 62
+Phone: 0997079797
+Amount: 100.00
+[2026-05-11 21:23:29] Mobile Payment Initiation:
+URL: https://new-api.ctechpay.com/api/v1/airtel/payment
+Payload: {"token":"a1ZXVnVXOEhhNGJIZW1IM3BZZWRKdGkwbk5UNmNhck1lQ0RQeVNuR3l0MjRobGRVcWh6ZGZZZ1ozdXd2S2ZrRA","amount":100,"phone":"0997079797","category_flag":"NAOS"}
+HTTP Code: 200
+Response: {"status":"success","message":"Payment initiated successfully.","data":{"data":{"transaction":{"id":"ID260511212327cc8cCTPAY","status":"Success."}},"status":{"response_code":"DP00800001006","code":"200","success":true,"result_code":"ESB000010","message":"SUCCESS"}},"customer_reference":null,"customer_message":null}
+-------------------
+[2026-05-11 21:24:04] Payment Status Check:
+URL: https://new-api.ctechpay.com/api/v1/airtel/status
+HTTP Code: 200
+Response: {"response_code":"DP00800001006","result_code":"ESB000010","transaction_status":"TIP","airtel_money_id":"BP260511.2123.437412","message":"Transaction in Progress"}
+-------------------
+[2026-05-11 21:24:46] Payment Init Flow:
+Order ID: 62
+Phone: 0997079797
+Amount: 100.00
+[2026-05-11 21:24:53] Mobile Payment Initiation:
+URL: https://new-api.ctechpay.com/api/v1/airtel/payment
+Payload: {"token":"a1ZXVnVXOEhhNGJIZW1IM3BZZWRKdGkwbk5UNmNhck1lQ0RQeVNuR3l0MjRobGRVcWh6ZGZZZ1ozdXd2S2ZrRA","amount":100,"phone":"0997079797","category_flag":"NAOS"}
+HTTP Code: 200
+Response: {"status":"success","message":"Payment initiated successfully.","data":{"data":{"transaction":{"id":"ID2605112124507318CTPAY","status":"Success."}},"status":{"response_code":"DP00800001006","code":"200","success":true,"result_code":"ESB000010","message":"SUCCESS"}},"customer_reference":null,"customer_message":null}
+-------------------
+[2026-05-11 21:25:35] Payment Status Check:
+URL: https://new-api.ctechpay.com/api/v1/airtel/status
+HTTP Code: 200
+Response: {"response_code":"DP00800001006","result_code":"ESB000010","transaction_status":"TIP","airtel_money_id":"BP260511.2124.457745","message":"Transaction in Progress"}
+-------------------
+[2026-05-11 21:26:51] Payment Init Flow:
+Order ID: 65
+Phone: 0997079797
+Amount: 70.00
+[2026-05-11 21:26:55] Mobile Payment Initiation:
+URL: https://new-api.ctechpay.com/api/v1/airtel/payment
+Payload: {"token":"a1ZXVnVXOEhhNGJIZW1IM3BZZWRKdGkwbk5UNmNhck1lQ0RQeVNuR3l0MjRobGRVcWh6ZGZZZ1ozdXd2S2ZrRA","amount":70,"phone":"0997079797","category_flag":"NAOS"}
+HTTP Code: 200
+Response: {"status":"success","message":"Payment initiated successfully.","data":{"data":{"transaction":{"id":"ID2605112126537743CTPAY","status":"Success."}},"status":{"response_code":"DP00800001006","code":"200","success":true,"result_code":"ESB000010","message":"SUCCESS"}},"customer_reference":null,"customer_message":null}
+-------------------
+[2026-05-11 21:27:25] Payment Status Check:
+URL: https://new-api.ctechpay.com/api/v1/airtel/status
+HTTP Code: 200
+Response: {"response_code":"DP00800001006","result_code":"ESB000010","transaction_status":"TIP","airtel_money_id":"BP260511.2126.443667","message":"Transaction in Progress"}
+-------------------
+[2026-05-11 21:30:47] Payment Init Flow:
+Order ID: 65
+Phone: 0997079797
+Amount: 70.00
+[2026-05-11 21:30:51] Mobile Payment Initiation:
+URL: https://new-api.ctechpay.com/api/v1/airtel/payment
+Payload: {"token":"a1ZXVnVXOEhhNGJIZW1IM3BZZWRKdGkwbk5UNmNhck1lQ0RQeVNuR3l0MjRobGRVcWh6ZGZZZ1ozdXd2S2ZrRA","amount":70,"phone":"0997079797","category_flag":"NAOS"}
+HTTP Code: 200
+Response: {"status":"success","message":"Payment initiated successfully.","data":{"data":{"transaction":{"id":"ID260511213048119dCTPAY","status":"Success."}},"status":{"response_code":"DP00800001006","code":"200","success":true,"result_code":"ESB000010","message":"SUCCESS"}},"customer_reference":null,"customer_message":null}
+-------------------
+[2026-05-11 21:31:21] Payment Status Check:
+URL: https://new-api.ctechpay.com/api/v1/airtel/status
+HTTP Code: 200
+Response: {"response_code":"DP00800001006","result_code":"ESB000010","transaction_status":"TIP","airtel_money_id":"BP260511.2130.468912","message":"Transaction in Progress"}
+-------------------
+[2026-05-11 21:45:22] Payment Init Flow:
+Order ID: 65
+Phone: 0997079797
+Amount: 70.00
+[2026-05-11 21:45:25] Mobile Payment Initiation:
+URL: https://new-api.ctechpay.com/api/v1/airtel/payment
+Payload: {"token":"a1ZXVnVXOEhhNGJIZW1IM3BZZWRKdGkwbk5UNmNhck1lQ0RQeVNuR3l0MjRobGRVcWh6ZGZZZ1ozdXd2S2ZrRA","amount":70,"phone":"0997079797","category_flag":"NAOS"}
+HTTP Code: 200
+Response: {"status":"success","message":"Payment initiated successfully.","data":{"data":{"transaction":{"id":"ID260511214523618dCTPAY","status":"Success."}},"status":{"response_code":"DP00800001006","code":"200","success":true,"result_code":"ESB000010","message":"SUCCESS"}},"customer_reference":null,"customer_message":null}
+-------------------
+[2026-05-11 21:45:53] Payment Status Check:
+URL: https://new-api.ctechpay.com/api/v1/airtel/status
+HTTP Code: 200
+Response: {"response_code":"DP00800001006","result_code":"ESB000010","transaction_status":"TIP","airtel_money_id":"BP260511.2145.493824","message":"Transaction in Progress"}
+-------------------
+[2026-05-11 21:48:33] Payment Init Flow:
+Order ID: 65
+Phone: 0997079797
+Amount: 70.00
+[2026-05-11 21:48:37] Mobile Payment Initiation:
+URL: https://new-api.ctechpay.com/api/v1/airtel/payment
+Payload: {"token":"a1ZXVnVXOEhhNGJIZW1IM3BZZWRKdGkwbk5UNmNhck1lQ0RQeVNuR3l0MjRobGRVcWh6ZGZZZ1ozdXd2S2ZrRA","amount":70,"phone":"0997079797","category_flag":"NAOS"}
+HTTP Code: 200
+Response: {"status":"success","message":"Payment initiated successfully.","data":{"data":{"transaction":{"id":"ID2605112148351b2cCTPAY","status":"Success."}},"status":{"response_code":"DP00800001006","code":"200","success":true,"result_code":"ESB000010","message":"SUCCESS"}},"customer_reference":null,"customer_message":null}
+-------------------
+[2026-05-11 21:49:05] Payment Status Check:
+URL: https://new-api.ctechpay.com/api/v1/airtel/status
+HTTP Code: 200
+Response: {"response_code":"DP00800001006","result_code":"ESB000010","transaction_status":"TIP","airtel_money_id":"BP260511.2148.498328","message":"Transaction in Progress"}
+-------------------
+[2026-05-11 21:50:12] Payment Init Flow:
+Order ID: 62
+Phone: 0994321498
+Amount: 100.00
+[2026-05-11 21:50:14] Mobile Payment Initiation:
+URL: https://new-api.ctechpay.com/api/v1/airtel/payment
+Payload: {"token":"a1ZXVnVXOEhhNGJIZW1IM3BZZWRKdGkwbk5UNmNhck1lQ0RQeVNuR3l0MjRobGRVcWh6ZGZZZ1ozdXd2S2ZrRA","amount":100,"phone":"0994321498","category_flag":"NAOS"}
+HTTP Code: 200
+Response: {"status":"success","message":"Payment initiated successfully.","data":{"data":{"transaction":{"id":"ID2605112150131958CTPAY","status":"Success."}},"status":{"response_code":"DP00800001006","code":"200","success":true,"result_code":"ESB000010","message":"SUCCESS"}},"customer_reference":null,"customer_message":null}
+-------------------
+[2026-05-11 21:50:42] Payment Status Check:
+URL: https://new-api.ctechpay.com/api/v1/airtel/status
+HTTP Code: 200
+Response: {"response_code":"DP00800001006","result_code":"ESB000010","transaction_status":"TIP","airtel_money_id":"BP260511.2150.550597","message":"Transaction in Progress"}
+-------------------
+[2026-05-11 21:54:10] Payment Init Flow:
+Order ID: 65
+Phone: 0994321498
+Amount: 70.00
+[2026-05-11 21:54:13] Mobile Payment Initiation:
+URL: https://new-api.ctechpay.com/api/v1/airtel/payment
+Payload: {"token":"a1ZXVnVXOEhhNGJIZW1IM3BZZWRKdGkwbk5UNmNhck1lQ0RQeVNuR3l0MjRobGRVcWh6ZGZZZ1ozdXd2S2ZrRA","amount":70,"phone":"0994321498","category_flag":"NAOS"}
+HTTP Code: 200
+Response: {"status":"success","message":"Payment initiated successfully.","data":{"data":{"transaction":{"id":"ID260511215411784dCTPAY","status":"Success."}},"status":{"response_code":"DP00800001006","code":"200","success":true,"result_code":"ESB000010","message":"SUCCESS"}},"customer_reference":null,"customer_message":null}
+-------------------
+[2026-05-11 21:54:40] Payment Status Check:
+URL: https://new-api.ctechpay.com/api/v1/airtel/status
+HTTP Code: 200
+Response: {"response_code":"DP00800001006","result_code":"ESB000010","transaction_status":"TIP","airtel_money_id":"BP260511.2154.555864","message":"Transaction in Progress"}
+-------------------
+[2026-05-11 21:55:52] Payment Init Flow:
+Order ID: 65
+Phone: 0997079797
+Amount: 70.00
+[2026-05-11 21:55:54] Mobile Payment Initiation:
+URL: https://new-api.ctechpay.com/api/v1/airtel/payment
+Payload: {"token":"a1ZXVnVXOEhhNGJIZW1IM3BZZWRKdGkwbk5UNmNhck1lQ0RQeVNuR3l0MjRobGRVcWh6ZGZZZ1ozdXd2S2ZrRA","amount":70,"phone":"0997079797","category_flag":"NAOS"}
+HTTP Code: 200
+Response: {"status":"success","message":"Payment initiated successfully.","data":{"data":{"transaction":{"id":"ID260511215553e417CTPAY","status":"Success."}},"status":{"response_code":"DP00800001006","code":"200","success":true,"result_code":"ESB000010","message":"SUCCESS"}},"customer_reference":null,"customer_message":null}
+-------------------
+[2026-05-11 21:56:22] Payment Status Check:
+URL: https://new-api.ctechpay.com/api/v1/airtel/status
+HTTP Code: 200
+Response: {"response_code":"DP00800001006","result_code":"ESB000010","transaction_status":"TIP","airtel_money_id":"BP260511.2155.536400","message":"Transaction in Progress"}
+-------------------
+[2026-05-11 21:57:17] Payment Init Flow:
+Order ID: 65
+Phone: 0994321498
+Amount: 70.00
+[2026-05-11 21:57:19] Mobile Payment Initiation:
+URL: https://new-api.ctechpay.com/api/v1/airtel/payment
+Payload: {"token":"a1ZXVnVXOEhhNGJIZW1IM3BZZWRKdGkwbk5UNmNhck1lQ0RQeVNuR3l0MjRobGRVcWh6ZGZZZ1ozdXd2S2ZrRA","amount":70,"phone":"0994321498","category_flag":"NAOS"}
+HTTP Code: 200
+Response: {"status":"success","message":"Payment initiated successfully.","data":{"data":{"transaction":{"id":"ID26051121571829e7CTPAY","status":"Success."}},"status":{"response_code":"DP00800001006","code":"200","success":true,"result_code":"ESB000010","message":"SUCCESS"}},"customer_reference":null,"customer_message":null}
+-------------------
+[2026-05-11 21:57:47] Payment Status Check:
+URL: https://new-api.ctechpay.com/api/v1/airtel/status
+HTTP Code: 200
+Response: {"response_code":"DP00800001006","result_code":"ESB000010","transaction_status":"TIP","airtel_money_id":"BP260511.2157.538169","message":"Transaction in Progress"}
+-------------------
+[2026-05-11 22:16:56] Payment Init Flow:
+Order ID: 65
+Phone: 0997079797
+Amount: 70.00
+[2026-05-11 22:16:59] Mobile Payment Initiation:
+URL: https://new-api.ctechpay.com/api/v1/airtel/payment
+Payload: {"token":"a1ZXVnVXOEhhNGJIZW1IM3BZZWRKdGkwbk5UNmNhck1lQ0RQeVNuR3l0MjRobGRVcWh6ZGZZZ1ozdXd2S2ZrRA","amount":70,"phone":"0997079797","category_flag":"NAOS"}
+HTTP Code: 200
+Response: {"status":"success","message":"Payment initiated successfully.","data":{"data":{"transaction":{"id":"ID260511221657a39aCTPAY","status":"Success."}},"status":{"response_code":"DP00800001006","code":"200","success":true,"result_code":"ESB000010","message":"SUCCESS"}},"customer_reference":null,"customer_message":null}
+-------------------
+[2026-05-11 22:17:26] Payment Status Check:
+URL: https://new-api.ctechpay.com/api/v1/airtel/status
+HTTP Code: 200
+Response: {"response_code":"DP00800001006","result_code":"ESB000010","transaction_status":"TIP","airtel_money_id":"BP260511.2216.580307","message":"Transaction in Progress"}
+-------------------
+[2026-05-11 22:21:08] Payment Init Flow:
+Order ID: 65
+Phone: 0997079797
+Amount: 70.00
+[2026-05-11 22:21:11] Mobile Payment Initiation:
+URL: https://new-api.ctechpay.com/api/v1/airtel/payment
+Payload: {"token":"a1ZXVnVXOEhhNGJIZW1IM3BZZWRKdGkwbk5UNmNhck1lQ0RQeVNuR3l0MjRobGRVcWh6ZGZZZ1ozdXd2S2ZrRA","amount":70,"phone":"0997079797","category_flag":"NAOS"}
+HTTP Code: 200
+Response: {"status":"success","message":"Payment initiated successfully.","data":{"data":{"transaction":{"id":"ID2605112221098551CTPAY","status":"Success."}},"status":{"response_code":"DP00800001006","code":"200","success":true,"result_code":"ESB000010","message":"SUCCESS"}},"customer_reference":null,"customer_message":null}
+-------------------
+[2026-05-11 22:21:38] Payment Status Check:
+URL: https://new-api.ctechpay.com/api/v1/airtel/status
+HTTP Code: 200
+Response: {"response_code":"DP00800001006","result_code":"ESB000010","transaction_status":"TIP","airtel_money_id":"BP260511.2221.584223","message":"Transaction in Progress"}
+-------------------
+[2026-05-11 22:21:54] Payment Init Flow:
+Order ID: 62
+Phone: 0997079797
+Amount: 100.00
+[2026-05-11 22:21:57] Mobile Payment Initiation:
+URL: https://new-api.ctechpay.com/api/v1/airtel/payment
+Payload: {"token":"a1ZXVnVXOEhhNGJIZW1IM3BZZWRKdGkwbk5UNmNhck1lQ0RQeVNuR3l0MjRobGRVcWh6ZGZZZ1ozdXd2S2ZrRA","amount":100,"phone":"0997079797","category_flag":"NAOS"}
+HTTP Code: 200
+Response: {"status":"success","message":"Payment initiated successfully.","data":{"data":{"transaction":{"id":"ID260511222155d598CTPAY","status":"Success."}},"status":{"response_code":"DP00800001006","code":"200","success":true,"result_code":"ESB000010","message":"SUCCESS"}},"customer_reference":null,"customer_message":null}
+-------------------
+[2026-05-11 22:22:24] Payment Status Check:
+URL: https://new-api.ctechpay.com/api/v1/airtel/status
+HTTP Code: 200
+Response: {"response_code":"DP00800001006","result_code":"ESB000010","transaction_status":"TIP","airtel_money_id":"BP260511.2221.610388","message":"Transaction in Progress"}
+-------------------
+[2026-05-11 22:22:43] Payment Init Flow:
+Order ID: 65
+Phone: 0997079797
+Amount: 70.00
+[2026-05-11 22:22:46] Mobile Payment Initiation:
+URL: https://new-api.ctechpay.com/api/v1/airtel/payment
+Payload: {"token":"a1ZXVnVXOEhhNGJIZW1IM3BZZWRKdGkwbk5UNmNhck1lQ0RQeVNuR3l0MjRobGRVcWh6ZGZZZ1ozdXd2S2ZrRA","amount":70,"phone":"0997079797","category_flag":"NAOS"}
+HTTP Code: 200
+Response: {"status":"success","message":"Payment initiated successfully.","data":{"data":{"transaction":{"id":"ID260511222244f9e0CTPAY","status":"Success."}},"status":{"response_code":"DP00800001006","code":"200","success":true,"result_code":"ESB000010","message":"SUCCESS"}},"customer_reference":null,"customer_message":null}
+-------------------
+[2026-05-11 22:23:13] Payment Status Check:
+URL: https://new-api.ctechpay.com/api/v1/airtel/status
+HTTP Code: 200
+Response: {"response_code":"DP00800001006","result_code":"ESB000010","transaction_status":"TIP","airtel_money_id":"BP260511.2222.585630","message":"Transaction in Progress"}
+-------------------
+[2026-05-11 22:24:37] Payment Init Flow:
+Order ID: 65
+Phone: 0993702324
+Amount: 70.00
+[2026-05-11 22:24:40] Mobile Payment Initiation:
+URL: https://new-api.ctechpay.com/api/v1/airtel/payment
+Payload: {"token":"a1ZXVnVXOEhhNGJIZW1IM3BZZWRKdGkwbk5UNmNhck1lQ0RQeVNuR3l0MjRobGRVcWh6ZGZZZ1ozdXd2S2ZrRA","amount":70,"phone":"0993702324","category_flag":"NAOS"}
+HTTP Code: 200
+Response: {"status":"success","message":"Payment initiated successfully.","data":{"data":{"transaction":{"id":"ID260511222438d3b8CTPAY","status":"Success."}},"status":{"response_code":"DP00800001006","code":"200","success":true,"result_code":"ESB000010","message":"SUCCESS"}},"customer_reference":null,"customer_message":null}
+-------------------
+[2026-05-11 22:25:07] Payment Status Check:
+URL: https://new-api.ctechpay.com/api/v1/airtel/status
+HTTP Code: 200
+Response: {"response_code":"DP00800001001","result_code":"ESB000010","transaction_status":"TS","airtel_money_id":"BP260511.2224.587374","message":"Transaction Successful"}
+-------------------
+[2026-05-12 12:27:14] Payment Init Flow:
+Order ID: 57
+Phone: 0994083759
+Amount: 50.00
+[2026-05-12 12:27:18] Mobile Payment Initiation:
+URL: https://new-api.ctechpay.com/api/v1/airtel/payment
+Payload: {"token":"a1ZXVnVXOEhhNGJIZW1IM3BZZWRKdGkwbk5UNmNhck1lQ0RQeVNuR3l0MjRobGRVcWh6ZGZZZ1ozdXd2S2ZrRA","amount":50,"phone":"0994083759","category_flag":"NAOS"}
+HTTP Code: 200
+Response: {"status":"success","message":"Payment initiated successfully.","data":{"data":{"transaction":{"id":"ID260512122715c21aCTPAY","status":"Success."}},"status":{"response_code":"DP00800001006","code":"200","success":true,"result_code":"ESB000010","message":"SUCCESS"}},"customer_reference":null,"customer_message":null}
+-------------------
+[2026-05-12 12:27:46] Payment Status Check:
+URL: https://new-api.ctechpay.com/api/v1/airtel/status
+HTTP Code: 200
+Response: {"response_code":"DP00800001002","result_code":"ESB000010","transaction_status":"TF","airtel_money_id":"BP260512.1227.986359","message":"Wrong PIN entered. Forgot your PIN? To RESET it, dial *211#, select my Account, then MY PIN and Reset PIN\/Forgot PIN"}
+-------------------
+[2026-05-12 12:27:55] Payment Init Flow:
+Order ID: 58
+Phone: 0994083759
+Amount: 50.00
+[2026-05-12 12:27:58] Mobile Payment Initiation:
+URL: https://new-api.ctechpay.com/api/v1/airtel/payment
+Payload: {"token":"a1ZXVnVXOEhhNGJIZW1IM3BZZWRKdGkwbk5UNmNhck1lQ0RQeVNuR3l0MjRobGRVcWh6ZGZZZ1ozdXd2S2ZrRA","amount":50,"phone":"0994083759","category_flag":"NAOS"}
+HTTP Code: 200
+Response: {"status":"success","message":"Payment initiated successfully.","data":{"data":{"transaction":{"id":"ID260512122756d017CTPAY","status":"Success."}},"status":{"response_code":"DP00800001006","code":"200","success":true,"result_code":"ESB000010","message":"SUCCESS"}},"customer_reference":null,"customer_message":null}
+-------------------
+[2026-05-12 12:28:26] Payment Status Check:
+URL: https://new-api.ctechpay.com/api/v1/airtel/status
+HTTP Code: 200
+Response: {"response_code":"DP00800001001","result_code":"ESB000010","transaction_status":"TS","airtel_money_id":"BP260512.1227.938229","message":"Transaction Successful"}
+-------------------
+[2026-05-12 12:38:51] Payment Init Flow:
+Order ID: 59
+Phone: 0983546309
+Amount: 90.00
+[2026-05-12 12:38:53] Mobile Payment Initiation:
+URL: https://new-api.ctechpay.com/api/v1/airtel/payment
+Payload: {"token":"a1ZXVnVXOEhhNGJIZW1IM3BZZWRKdGkwbk5UNmNhck1lQ0RQeVNuR3l0MjRobGRVcWh6ZGZZZ1ozdXd2S2ZrRA","amount":90,"phone":"0983546309","category_flag":"NAOS"}
+HTTP Code: 200
+Response: {"status":"success","message":"Payment initiated successfully.","data":{"status":{"response_code":"DP00800001008","code":"400","success":false,"result_code":"0000900","message":"Dear customer, the agent code you have entered is incorrect. Kindly try again and enter a valid agent code. Transfer Rule Error."}},"customer_reference":null,"customer_message":null}
+-------------------
+[2026-05-12 12:41:24] Payment Init Flow:
+Order ID: 59
+Phone: 0997079797
+Amount: 90.00
+[2026-05-12 12:41:27] Mobile Payment Initiation:
+URL: https://new-api.ctechpay.com/api/v1/airtel/payment
+Payload: {"token":"a1ZXVnVXOEhhNGJIZW1IM3BZZWRKdGkwbk5UNmNhck1lQ0RQeVNuR3l0MjRobGRVcWh6ZGZZZ1ozdXd2S2ZrRA","amount":90,"phone":"0997079797","category_flag":"NAOS"}
+HTTP Code: 200
+Response: {"status":"success","message":"Payment initiated successfully.","data":{"data":{"transaction":{"id":"ID2605121241247213CTPAY","status":"Success."}},"status":{"response_code":"DP00800001006","code":"200","success":true,"result_code":"ESB000010","message":"SUCCESS"}},"customer_reference":null,"customer_message":null}
+-------------------
+[2026-05-12 12:41:54] Payment Status Check:
+URL: https://new-api.ctechpay.com/api/v1/airtel/status
+HTTP Code: 200
+Response: {"response_code":"DP00800001001","result_code":"ESB000010","transaction_status":"TS","airtel_money_id":"BP260512.1241.256470","message":"Transaction Successful"}
+-------------------
